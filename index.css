@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#root {
+    padding: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+#playground {
+    border:white 3px solid;
+}
