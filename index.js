@@ -1,4 +1,4 @@
-import Game from "./src/game.js"
+import Game from "./src/game.js";
 import View from "./src/view.js";
 
 let game = new Game();
@@ -16,28 +16,28 @@ setInterval(() => {
     } else {
         bitch.style.color = "black";
     }
-}, 500)
+}, 500);
 
 view.render()
 
-document.addEventListener('keydown', event =>{
+document.addEventListener('keydown', (event) => {
     switch (event.keyCode) {
         case 37: //left
             game.moveLeft();
-            view.render()
+            view.render();
             break;
         case 38: //up
             game.moveUp();
-            view.render()
+            view.render();
             break;
         case 39: //right
             game.moveRight();
-            view.render()
+            view.render();
             break;
         case 40: //down
             game.moveDown();
-            view.render()
+            view.render();
             break;
     }
-})
+});
  
